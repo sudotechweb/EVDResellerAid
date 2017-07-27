@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EVD Reseller Aid</string>
+    <string name="input_number_label">Number</string>
+    <string name="input_amount_label">Amount</string>
+    <string name="input_pin_label">EVD PIN</string>
+    <string name="topap_amount_example">eg: 5</string>
+    <string name="phone_number_example">eg: 72221730</string>
+    <string name="btn_send">send topap</string>
+    <string name="input_reseller_pin">Reseller PIN</string>
+</resources>
