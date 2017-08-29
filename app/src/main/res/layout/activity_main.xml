@@ -21,7 +21,13 @@
             android:id="@+id/phone_number"
             android:hint="@string/phone_number_example"
             android:inputType="phone"
-            android:layout_width="match_parent"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/getContactBtn"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_width="50sp"
+            android:text="C"
             android:layout_height="wrap_content" />
     </LinearLayout>
     <LinearLayout
@@ -42,26 +48,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </LinearLayout>
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/activity_vertical_margin">
-        <TextView
-            android:layout_width="@dimen/input_label_width"
-            android:layout_height="wrap_content"
-            android:layout_marginRight="@dimen/activity_horizontal_margin"
-            android:layout_marginLeft="@dimen/activity_horizontal_margin"
-            android:text="@string/input_reseller_pin"/>
-        <EditText
-            android:id="@+id/reseller_pin"
-            android:hint="****"
-            android:minLines="4"
-            android:maxLines="4"
-            android:inputType="numberPassword"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-    </LinearLayout>
     <Button
         android:text="@string/btn_send"
         android:id="@+id/btn_dialler"
@@ -76,19 +62,22 @@
         android:layout_height="wrap_content"
         ads:adSize="BANNER"
         ads:adUnitId="ca-app-pub-3511968554265090/7130367173"
-        android:layout_marginTop="@dimen/activity_vertical_margin"></com.google.android.gms.ads.AdView>
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
     <LinearLayout
         android:gravity="bottom|right"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/adminFab"
-            android:layout_marginBottom="@dimen/h3"
-            android:layout_marginRight="@dimen/h3"
-            android:layout_marginEnd="@dimen/h3"
-            android:src="@drawable/common_full_open_on_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:onClick="sendMessage"/>
+            android:layout_marginBottom="@dimen/h3"
+            android:layout_marginEnd="@dimen/h3"
+            android:layout_marginRight="@dimen/h3"
+            android:onClick="gotoUserSettings"
+            android:src="@drawable/common_full_open_on_phone"
+            android:tint="@color/colorPrimaryDark"
+            ads:fabSize="normal" />
     </LinearLayout>
 </LinearLayout>

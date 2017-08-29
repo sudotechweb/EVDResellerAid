@@ -3,11 +3,12 @@
     <string name="input_number_label">Number</string>
     <string name="input_amount_label">Amount</string>
     <string name="input_pin_label">EVD PIN</string>
-    <string name="topap_amount_example">eg: 5 for K5.00</string>
-    <string name="phone_number_example">eg: 72221730 exclude 675</string>
+    <string name="topap_amount_example">eg: 5</string>
+    <string name="phone_number_example">eg: 72221730</string>
     <string name="btn_send">send topap</string>
     <string name="input_reseller_pin">Reseller PIN</string>
     <string name="profile_activity_title">USER PROFILE</string>
     <string name="profile_activity_update_button">UPDATE PROFILE</string>
     <string name="profile_activity_content">INSERT USER PROFILE CONTENT HERE</string>
+    <string name="myPrefKey" />
 </resources>
