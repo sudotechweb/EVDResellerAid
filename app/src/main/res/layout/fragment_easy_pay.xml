@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context="com.sudotechpng.android.evdreselleraid.EasyPayFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/easypay_phone_number"
+        android:hint="@string/phone_number_example"
+        android:textColorHint="@color/colorSecondaryLight"
+        android:textColor="@color/colorSecondaryLight"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/ammountAndSendLayout"
+        android:layout_below="@id/easypay_phone_number"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/easypay_ammount"
+                android:hint="@string/topap_amount_example"
+                android:textColorHint="@color/colorSecondaryLight"
+                android:textColor="@color/colorSecondaryLight"
+                android:inputType="phone|number"
+                android:layout_weight="75"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/sendEasypayDialler"
+                android:layout_alignParentRight="true"
+                android:text="@string/btn_send_easypay"
+                android:background="@color/colorSecondaryDark"
+                android:layout_weight="25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/main_adBanner"
+        android:layout_below="@id/ammountAndSendLayout"
+        android:layout_gravity="center"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3511968554265090/7130367173"
+        android:layout_marginTop="@dimen/activity_vertical_margin" />
+</RelativeLayout>

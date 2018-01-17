@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "13253634654",
+    "firebase_url": "https://digicel-direct-topap-aid.firebaseio.com",
+    "project_id": "digicel-direct-topap-aid",
+    "storage_bucket": "digicel-direct-topap-aid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13253634654:android:01beccf5c12939f1",
+        "android_client_info": {
+          "package_name": "com.sudotechpng.android.evdreselleraid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13253634654-khc26dupqarfgc9cjmbma7ksc75af0bk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sudotechpng.android.evdreselleraid",
+            "certificate_hash": "79618f7603a62248154c6f7de8036ca011ff40ac"
+          }
+        },
+        {
+          "client_id": "13253634654-c6uvcdgo6rl1ge7cn79v6sf4aio76ubb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsn87asA9i94RrDaLzTFGAbIZgXVpl3co"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13253634654-c6uvcdgo6rl1ge7cn79v6sf4aio76ubb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

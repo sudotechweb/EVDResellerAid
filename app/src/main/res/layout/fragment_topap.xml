@@ -1,0 +1,56 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sudotechpng.android.evdreselleraid.TopapFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <EditText
+            android:id="@+id/topap_phone_number"
+            android:hint="@string/phone_number_example"
+            android:textColorHint="@color/colorSecondaryLight"
+            android:textColor="@color/colorSecondaryLight"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/ammountAndSendLayout"
+            android:layout_below="@id/topap_phone_number"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <EditText
+                    android:id="@+id/topap_ammount"
+                    android:hint="@string/topap_amount_example"
+                    android:textColorHint="@color/colorSecondaryLight"
+                    android:textColor="@color/colorSecondaryLight"
+                    android:inputType="phone|number"
+                    android:layout_width="175dp"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:id="@+id/sendTopapDialler"
+                    android:layout_alignParentRight="true"
+                    android:onClick="dialServiceEasypay"
+                    android:text="@string/btn_send"
+                    android:background="@color/colorSecondaryDark"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content" />
+            </RelativeLayout>
+        </LinearLayout>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/main_adBanner"
+            android:layout_gravity="bottom|center"
+            android:layout_below="@id/ammountAndSendLayout"
+            android:layout_marginBottom="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-3511968554265090/7130367173"
+            android:layout_marginTop="@dimen/activity_vertical_margin" />
+    </RelativeLayout>
+</FrameLayout>
