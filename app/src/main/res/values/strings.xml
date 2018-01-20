@@ -14,15 +14,12 @@
     <string name="profile_activity_update_button">UPDATE PROFILE</string>
     <string name="profile_activity_content">INSERT USER PROFILE CONTENT HERE</string>
     <string name="myPrefKey" />
-    <string name="tab1">Top Up</string>
-    <string name="tab2">Easy Pay</string>
-    <string name="tab3">Settings</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="action_example">Example action</string>
     <string name="action_settings">Settings</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="btn_send_easypay">Buy EasyPay</string>
+    <string name="sell_topap_text">Send Digicel Top Ap</string>
+    <string name="sell_easypay_text">Buy EasyPay Token</string>
 </resources>

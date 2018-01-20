@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragment_home_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/screen_name"
+        android:textSize="24dp"
+        android:textAllCaps="true"
+        android:hint="Screen name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/main_adBanner"
+        android:layout_below="@id/screen_name"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3511968554265090/7130367173" />
+    <EditText
+        android:id="@+id/text_number"
+        android:inputType="number"
+        android:paddingLeft="15sp"
+        android:hint="Number"
+        android:layout_below="@id/main_adBanner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/ammountAndSendLayout"
+        android:layout_below="@id/text_number"
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:hint="Ammount"
+            android:paddingLeft="15sp"
+            android:layout_weight="75"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="SEND"
+            android:layout_weight="25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

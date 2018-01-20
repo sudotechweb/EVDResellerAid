@@ -19,6 +19,6 @@ public class EasyPayFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_easy_pay, container, false);
+        return inflater.inflate(R.layout.fragment_layout_template, container, false);
     }
 }

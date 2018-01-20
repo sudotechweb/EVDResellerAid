@@ -7,8 +7,8 @@ android {
         applicationId "com.sudotechpng.android.evdreselleraid"
         minSdkVersion 16
         targetSdkVersion 25
-        versionCode 1
-        versionName "1.3.4"
+        versionCode 3
+        versionName "3.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
