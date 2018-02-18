@@ -4,7 +4,7 @@
     <string name="input_amount_label">Amount</string>
     <string name="input_pin_label">EVD PIN</string>
     <string name="phone_number_example">Number</string>
-    <string name="topap_amount_example">Ammount</string>
+    <string name="topap_amount_example">Amount</string>
     <string name="user_instr1">1. You are only required to enter the pin once. No need to re-enter the PIN for every transaction.</string>
     <string name="user_instr2">2. The default PIN is 8464, change it to any number to get out of this screen.</string>
     <string name="user_instr3">3. After saving PIN, press back on your device and start selling TOPAP.</string>
@@ -14,6 +14,7 @@
     <string name="profile_activity_update_button">UPDATE PROFILE</string>
     <string name="profile_activity_content">INSERT USER PROFILE CONTENT HERE</string>
     <string name="myPrefKey" />
+    <string name="tab0">Action Button</string>
     <string name="tab1">Top Up</string>
     <string name="tab2">Easy Pay</string>
     <string name="tab3">Settings</string>

@@ -35,22 +35,12 @@
                 <Button
                     android:id="@+id/sendTopapDialler"
                     android:layout_alignParentRight="true"
-                    android:onClick="dialServiceEasypay"
+                    android:onClick="dialServiceTopap"
                     android:text="@string/btn_send"
                     android:background="@color/colorSecondaryDark"
                     android:layout_width="180dp"
                     android:layout_height="wrap_content" />
             </RelativeLayout>
         </LinearLayout>
-        <com.google.android.gms.ads.AdView
-            android:id="@+id/main_adBanner"
-            android:layout_gravity="bottom|center"
-            android:layout_below="@id/ammountAndSendLayout"
-            android:layout_marginBottom="50dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-3511968554265090/7130367173"
-            android:layout_marginTop="@dimen/activity_vertical_margin" />
     </RelativeLayout>
 </FrameLayout>
