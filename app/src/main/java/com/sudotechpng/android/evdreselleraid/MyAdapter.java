@@ -1,17 +1,16 @@
 package com.sudotechpng.android.evdreselleraid;
 
 import android.app.Activity;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.content.Context;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.RecyclerView;
 
 import org.w3c.dom.Text;
 
@@ -31,7 +30,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         public ViewHolder(View v){
             super(v);
             layout = v;
-            txtService = (TextView) v.findViewById(R.id.service_text);
+            txtService = v.findViewById(R.id.service_text);
 //            icoService = (ImageView) v.findViewById(R.id.service_icon);
         }
     }
@@ -64,7 +63,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             @Override
             public void onClick(View v) {
                 Toast.makeText(v.getContext(),name+" clicked!",Toast.LENGTH_SHORT).show();
-                FragmentManager fm;
+                FragmentManager fm = null;
                 FragmentTransaction ft = fm.beginTransaction();
                 ft.add(R.id.frame, new TopapFragment());
                 ft.commit();

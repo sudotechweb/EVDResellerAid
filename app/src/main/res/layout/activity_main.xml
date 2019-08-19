@@ -11,14 +11,13 @@
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/footer_btn"
-        android:text="SETTINGS"
-        android:textSize="15dp"
-        android:background="@color/colorPrimaryLight"
-        android:textColor="@color/colorPrimaryText"
+        android:text="@string/action_settings"
+        android:textSize="@dimen/h1"
         android:textAlignment="center"
         android:padding="5dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true" />
 </RelativeLayout>
